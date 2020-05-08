@@ -52,4 +52,10 @@ module.exports = {
     // 默认为 "Edit this page"
     editLinkText: 'Edit this page'
   },
+  plugins: [
+    // '@vuepress/search', {
+    //   searchMaxSuggestions: 10
+    // },
+    // '@vuepress/back-to-top',
+  ]
 }
