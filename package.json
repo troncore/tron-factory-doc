@@ -1,0 +1,9 @@
+{
+  "name": "vuepress-demo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  }
+}
