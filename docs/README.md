@@ -16,5 +16,3 @@ features:
   details: 基于Tron开发，可实时同步主链功能，开发效率快速提升。  
 footer: Copyright © 2020-present tron-factory
 ---
-
-

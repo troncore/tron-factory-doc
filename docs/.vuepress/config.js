@@ -2,7 +2,7 @@
  * https://vuepress.vuejs.org/zh/config/
  */
 module.exports = {
-  title: 'TRON-FACTORY',
+  title: 'Documents | TRON-FACTORY',
   description: 'tron-factory',
   host: '127.0.0.1',
   port: '9090',
