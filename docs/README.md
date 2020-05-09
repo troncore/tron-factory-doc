@@ -1,20 +1,20 @@
 ---
 home: true  
 sidebar: false  
-heroText: Hero 标题  
-tagline: Hero 副标题  
+heroText: Tron Factory 
+tagline: Tron Factory致力于打造简单、多元、高效的区块链开发服务 
 
 actionText: 开始 →  
 actionLink: /guide/  
 
 features:  
-- title: 简洁至上  
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动  
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能  
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。  
-footer: MIT Licensed | Copyright © 2020-present kangjiancheng
+- title: 快捷  
+  details: 最简化模版开发，让你最快拥有自己专属的区块链。
+- title: 多元  
+  details: 多种模版区块链选择，更可订制专属功能，支持自定义功能包。
+- title: 高效  
+  details: 基于Tron开发，可实时同步主链功能，开发效率快速提升。  
+footer: Copyright © 2020-present tron-factory
 ---
 
 
