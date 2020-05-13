@@ -11,8 +11,6 @@ module.exports = {
   // https://vuepress.vuejs.org/zh/theme/default-theme-config.html#%E9%BB%98%E8%AE%A4%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE
   themeConfig: {
     logo: '/logo.png',
-    search: false,
-    searchMaxSuggestions: 10,
     nav: [
       { text: '指南', link: '/guide/' },
       { text: '预览', link: 'http://47.252.80.127:8080/' },
