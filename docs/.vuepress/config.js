@@ -23,13 +23,14 @@ module.exports = {
     logo: '/logo.png',
     repo: 'http://39.106.174.213/kangjiancheng/tron-factory-doc',
     repoLabel: 'GitLab',
+    docsDir: 'docs', // 文档根目录
     editLinks: true,
     locales: {
       '/': {
         label: 'English',
         selectText: 'Languages',
         ariaLabel: 'Select language',
-        editLinkText: 'Edit this page on GitHub',
+        editLinkText: 'Edit this page',
         lastUpdated: 'Last Updated',
         // 顶部导航栏
         nav: [
@@ -55,7 +56,7 @@ module.exports = {
         label: '简体中文',
         selectText: '选择语言',
         ariaLabel: '选择语言',
-        editLinkText: '在 GitHub 上编辑此页',
+        editLinkText: '编辑此页',
         lastUpdated: '上次更新',
         // 顶部导航栏
         nav: [
