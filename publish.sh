@@ -1,3 +1,3 @@
-#!/bin/bash -ilex
-source /etc/profile
+#!/bin/bash
+yarn global add vuepress
 yarn build
