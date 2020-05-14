@@ -14,5 +14,5 @@ features:
   details: 多种模版区块链选择，更可订制专属功能，支持自定义功能包。
 - title: 高效  
   details: 基于Tron开发，可实时同步主链功能，开发效率快速提升。  
-footer: Copyright © 2020-present tron-factory
+footer: Copyright © 2020-present tron
 ---
