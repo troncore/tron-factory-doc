@@ -186,4 +186,4 @@ TRON FACTORY只支持全量部署，当节点全部添加完毕后进入节点�
 
 ## License
 
-Copyright (c) 2020 Tron Factory
+Copyright (c) 2020 TRON FACTORY
