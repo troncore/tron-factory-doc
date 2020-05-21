@@ -6,6 +6,7 @@ tagline: Tron Factory致力于打造简单、多元、高效的区块链开发�
 actionText: 开始 →  
 actionLink: /guide/  
 
+<!--
 features:  
 - title: 快捷  
   details: 最简化模版开发，让你最快拥有自己专属的区块链。
@@ -14,4 +15,5 @@ features:
 - title: 高效  
   details: 基于Tron开发，可实时同步主链功能，开发效率快速提升。  
 footer: Copyright © 2020-present tron-factory
+--->
 ---
