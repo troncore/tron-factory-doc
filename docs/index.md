@@ -23,7 +23,6 @@ Make sure you have the proper dependencies.
 
 ## Features
 
-```
 - Nodes Manage
   - Signature Algorithm
   - Add Node
@@ -40,8 +39,6 @@ Make sure you have the proper dependencies.
     - Module
 
 - Ecology App(In development)
-
-```
 
 ## Startup step
 
