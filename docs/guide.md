@@ -1,19 +1,23 @@
-### 1.Ready to work
+---
+sidebar: auto
+---
+
+# Get Started
 
 Need to implement SSH in advance [key login](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server) or [password login](https://serverpilot.io/docs/how-to-enable-ssh-password-authentication/) 
 
 Deploy node needs [java-tron-1.0.0.zip build](https://tronprotocol.github.io/documentation-en/developers/deployment/)
 
-### 2.Home
+## Home
  
 （1）Documentation  
 （2）Click the start button to deploy nodesk<sup style="color:blue">[1]</sup>
 
-### 3.Nodes manage
+## Nodes manage
 
 Node management is to manage all your nodes added and deployed in TRON FACTORY.
 
-### How to add a node
+### Add a node
 
 At first select the signature algorithm to be used by your node.TRON FACTORY supports ECKey and SM2 signature algorithms currently.<sup style="color:blue">[2]</sup>
 Click on the `Add Node`; in the upper left corner to add a Witness node or a FullNode node to the one-click chain network.
@@ -37,19 +41,19 @@ Required fields include：
 Click the complete button<sup style="color:blue">[4]</sup> to save current node information
 
 
-### 4.Configuration
+## Configuration
 
 Configuration is to modify the configuration file of node deployment.You can learn the field details of configuration file by [main_net_config.conf](https://github.com/tronprotocol/tron-deployment/blob/master/main_net_config.conf).
 
-#### Fast config
+### Fast config
 
 Fast configuration is to modify only the deployed file genesis block information and P2P information while other configurations use the default configuration.For more configuration you can choose custom config.
 
-#### Custom config
+### Custom config
 
 Version 1.2 of TRON FACTORY include 6 modules,
 
-##### 4.1.Genesis block
+#### Genesis block
 
 Genesis information configuration mainly includes asset configuration and witeness configuration.  
 Asset configuration can add and modify current asset configuration information.  
@@ -76,7 +80,7 @@ The required asset(The blackhole account):
 
 Genesis block configuration click next button to save the current configuration
 
-#####  4.2 Basic config
+#### Basic config
 
 The basic configuration required fields include：
 
@@ -89,7 +93,7 @@ The basic configuration required fields include：
 
 Basic configuration click the next button to save the current configuration
 
-##### 4.3 Network link configuration(http/rpc)
+#### Network link configuration(http/rpc)
 
 Required fields for network link configuration include:
 
@@ -105,7 +109,7 @@ Required fields for network link configuration include:
 
 Network link configuration click the next button to save the current configuration
 
-##### 4.4 Database configuration
+#### Database configuration
 
 Database configuration required fields include：
 
@@ -118,7 +122,7 @@ Database configuration required fields include：
 
 Database configuration click the next button to save the current configuration
 
-##### 4.5 P2p configuration
+#### P2p configuration
 
 P2p configuration required fields include：
 
@@ -139,19 +143,19 @@ Advanced configuration fields include：
 
 P2p configuration click the next button to save the current configuration
 
-##### 4.6 Module customization
+#### Module customization
 
 Include two modules:consensus module and transaction module
 
-###### Consensus module
+#### Consensus module
 
 Currently supports DPOS
 
-###### transaction module
+#### transaction module
 
 You can upload your own compiled transaction module.
 
-### 5 Node deployment
+## Launch Nodes
 
 TRON FACTORY only support deploy all nodes at one time.Nodes which deployment status are pending will be deployed when clicking deploy button. 
 
@@ -159,19 +163,19 @@ You will choose deployment files of java-tron after click deploy button.See [dep
 
 All the nodes will be deployed in turn after click deploy button.You can check logs after the deployment is complete and the status of nodes will change to complete.
 
-#### 5.1 Logs
+### Logs
 
 Click logs to view the log of the node's deployment. 
 
-### 5.2 Details
+### Details
 
 Click details to view the details of the node.
 
-### 5.3 Delte
+### Delete
 
 The node can be deleted which status is pending.
 
-## Footnote
+## Help
 
 [1] Note: Click the `start` button is meant to start dveploying your private-chain. 
 
@@ -184,7 +188,3 @@ The node can be deleted which status is pending.
 [5] Note：Blackhole asset is required and different signature algorithm corresponding to different address.
 
 [6] Note: Need to fill in the corresponding address of the current signature algorithm.
-
-## License
-
-Copyright (c) 2020 Tron Factory

@@ -1,4 +1,8 @@
-# Introduction
+---
+sidebar: auto
+---
+
+## Introduction
 
 [TRON FACTORY](http://39.106.174.213/kangjiancheng/tron-factory) is a one-click chaining solution that helps you quickly build a more stable and secure production-level blockchain environment, reducing the challenges of blockchain deployment, operations, management, application development, etc. You are more focused on core business innovation and fast business.
 
@@ -68,7 +72,7 @@ The default path of the node deployed through TRON FACTORY is in the `～/java-t
 
 ## Steps for usage
 
-[Manual for usage](./steps/steps.md)
+[Manual for usage](./guide.md)
 
 ## Changelog
 
@@ -77,7 +81,3 @@ Detailed changes for each release are coming soon.
 ## Browsers support
 
 Chrome is recommended.
-
-## License
-
-Copyright (c) 2019 Tron Factory
