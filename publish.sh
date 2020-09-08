@@ -6,4 +6,4 @@ nvm install "8.10.0"
 nvm alias default "8.10.0"
 
 # yarn global add docsify-cli
-# yarn start
+yarn start
