@@ -1,0 +1,4 @@
+- [示例项目](http://47.252.80.127:8080)
+- Translations
+  - [:uk: English](/)
+  - [:cn: 中文](/zh/)

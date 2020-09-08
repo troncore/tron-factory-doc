@@ -1,13 +1,20 @@
-### server
+## Tron Factory Document
+Enterprise solution of blockchain, Deploy your blockchain with easy UI, engaging TRON Protocol.
+ 
+#### Install docsify
+
 ```shell script
-yarn dev
+yarn global add docsify-cli
+# 或者
+npm i docsify-cli -g
 ```
 
-### build
+#### Server
+
 ```shell script
-yarn build
+yarn start
 ```
 
+### Development
 
-### help 
-code by [vuepress](https://vuepress.vuejs.org/)
+This document project code by [docsify](https://docsify.js.org/) 

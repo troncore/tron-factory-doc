@@ -1,8 +1,4 @@
----
-sidebar: auto
----
-
-# Get Started
+# Quick start
 
 Need to implement SSH in advance [key login](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server) or [password login](https://serverpilot.io/docs/how-to-enable-ssh-password-authentication/) 
 
@@ -177,14 +173,9 @@ The node can be deleted which status is pending.
 
 ## Help
 
-[1] Note: Click the `start` button is meant to start dveploying your private-chain. 
-
-[2] Note: The signature algorithm cannot be changed once the node has been added.And only after the node is emptied the signature algorithm can be reselected.
-
-[3] Note: The range of voteCount is 0 - 9223372036854775807.
-
-[4] Note: The balance range is between -9223372036854775808 and 9223372036854775807. To ensure successful deployment, please fill in the range of values.
-
-[5] Note：Blackhole asset is required and different signature algorithm corresponding to different address.
-
-[6] Note: Need to fill in the corresponding address of the current signature algorithm.
+> [1] Note: Click the `start` button is meant to start dveploying your private-chain.   
+> [2] Note: The signature algorithm cannot be changed once the node has been added.And only after the node is emptied the signature algorithm can be reselected.  
+> [3] Note: The range of voteCount is 0 - 9223372036854775807.  
+> [4] Note: The balance range is between -9223372036854775808 and 9223372036854775807. To ensure successful deployment, please fill in the range of values.  
+> [5] Note：Blackhole asset is required and different signature algorithm corresponding to different address.  
+> [6] Note: Need to fill in the corresponding address of the current signature algorithm.

@@ -1,11 +1,12 @@
 {
-  "name": "vuepress-demo",
+  "name": "tron-factory-doc",
+  "description": "TRON Factory document",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "start": "docsify serve docs --open=false --port=5000"
   },
   "devDependencies": {
+    "docsify": "^4.11.6"
   }
 }
