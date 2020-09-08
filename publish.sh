@@ -5,7 +5,5 @@ source ~/.nvm/nvm.sh
 nvm install "8.10.0"
 nvm alias default "8.10.0"
 
-echo 'docsify-cli install'
-yarn global add docsify-cli
-echo 'docsify-cli end'
-yarn start
+npm i docsify-cli -g
+npm start
