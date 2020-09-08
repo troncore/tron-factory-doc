@@ -14,6 +14,8 @@ npm i docsify-cli -g
 ```shell script
 yarn start
 ```
+> because this is statics web, so if use nginx server, location the `./docs/index.html` path
+
 
 ### Development
 
