@@ -5,8 +5,5 @@
   "license": "MIT",
   "scripts": {
     "start": "docsify serve docs --open=false --port=5000"
-  },
-  "devDependencies": {
-    "docsify": "^4.11.6"
   }
 }
