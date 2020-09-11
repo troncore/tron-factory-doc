@@ -4,7 +4,6 @@ Need to implement SSH in advance [key login](https://www.digitalocean.com/commun
 
 Deploy node needs [java-tron-1.0.0.zip build](https://tronprotocol.github.io/documentation-en/developers/deployment/)
 
-## Home
  
 （1）Documentation  
 （2）Click the start button to deploy nodesk<sup style="color:blue">[1]</sup>
