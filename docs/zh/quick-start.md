@@ -4,7 +4,6 @@
 
 部署节点需要先查看 [如何编译java-tron](https://tronprotocol.github.io/documentation-zh/developers/deployment/)
 
-## 一键发链首页
 
 （1）查看文档  
 （2）一键部署，点击进入到部署管理页面<sup style="color:blue">[1]</sup>
