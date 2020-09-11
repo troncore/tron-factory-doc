@@ -1,8 +1,8 @@
 # 快速开始
 
-目前TRON FACTORY对服务器的节点部署是通过SSH方式传输与通信，因此需要对服务器进行部署需要提前实现[免密登录](https://www.jianshu.com/p/13919b5ba8a2)或[密码登录](https://blog.csdn.net/li528405176/article/details/82810342) 
+目前TRON FACTORY对服务器的节点部署是通过SSH方式传输与通信，因此需要对服务器进行部署需要提前实现[免密登录](https://www.jianshu.com/p/13919b5ba8a2)或[密码登录](https://blog.csdn.net/li528405176/article/details/82810342)。 
 
-部署节点需要先查看 [如何编译java-tron](https://tronprotocol.github.io/documentation-zh/developers/deployment/)
+部署节点需要先查看 [如何编译java-tron](https://tronprotocol.github.io/documentation-zh/developers/deployment/)。
 
 ## 区块链配置
 
