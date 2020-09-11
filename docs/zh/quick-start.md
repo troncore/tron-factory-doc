@@ -65,6 +65,7 @@
 点击保存即添加当前节点信息
 
 > 注：voteCount 支持范围为 0 - 9223372036854775807
+
 > 注：address 和 privateKey 可点击自动生成按钮生成
 
 ### 节点详情
@@ -83,7 +84,7 @@
 
 节点配置可对节点的配置文件进行修改。为方便用户快捷操作，节点配置将分为快速配置（修改频率较高的配置信息）和自定义配置（全部的配置信息），用户可根据需要选择不同的配置方式。
 
-相关参数可以参考java-tron的配置文件[主链部署配置文件](https://github.com/tronprotocol/tron-deployment/blob/master/main_net_config.conf)
+相关参数可以参考java-tron的配置文件[主链部署配置文件](https://github.com/tronprotocol/tron-deployment/blob/master/main_net_config.conf)。
 
 ### 快速配置
 
