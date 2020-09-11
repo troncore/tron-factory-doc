@@ -75,19 +75,22 @@ asset 配置必填字段包括：
 | :---------------------------------------: | :-------------------------------: |
 |                accountName                |              账户名               |
 |                accountType                | 账户类型： AssetIssue |
-|                  address                  | 地址<sup style="color:blue">[6]</sup>             |
-| balance <sup style="color:blue">[4]</sup> |               余额                |
+|                  address                  | 地址             |
+| balance  |               余额                |
 
 必须添加的asset（该账户为黑洞账户）：
 
 |                必填字段                   |              必填值                |
 | :---------------------------------------: | :-------------------------------: |
-|                accountName                |  Blackhole<sup style="color:blue">[5]</sup>       |
+|                accountName                |  Blackhole       |
 |                accountType                |  AssetIssue |
 |                  address                  | (eckey签名算法）TSJx5LZUDmRDKwQJHWAzpwDdAVm5F7UftB（sm2签名算法）TEJj71X5jJUCdZ4iMcJgqpYb5ECyDvHvDu|
-| balance <sup style="color:blue">[4]</sup> |               -9223372036854775808                |
+| balance  |               -9223372036854775808                |
 
 创世块信息点击下一步按钮保存当前配置
+
+> 注：必须添加名为Blackhole 的asset，不同的签名算法，对应的地址也不相同
+> 注：需填写对应当前签名算法的地址
 
 #### 基础配置
 
@@ -175,15 +178,3 @@ TRON FACTORY只支持全量部署，当节点全部添加完毕后进入节点�
 ### 查看日志
 
 点击查看日志可以查看当前节点的日志。  
-
-
-## 注意
-
-[1] 注：点击一键部署按钮就表明开始部署您的应用链
-
-[2] 注：签名算法一旦添加过节点后就不能更改，只有将节点清空后才可以重新选择签名算法
-
-
-[5] 注：必须添加名为Blackhole 的asset，不同的签名算法，对应的地址也不相同
-
-[6] 注：需填写对应当前签名算法的地址
