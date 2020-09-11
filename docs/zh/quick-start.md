@@ -144,8 +144,8 @@ TRON FACTORY 1.4的自定义配置主要包含5个模块:
 | :----------------------: | :--------------------------------------------------------: |
 |      maxActiveNodes      |     最大链接数 （数字且为正整数最大支持值 200])     |
 | maxActiveNodesWithSameIp | 同一 ip 最大连接数 （数字且为正整数最大支持值 50) |
-|   activeConnectFactor    | activeConnectFactor （数字为(0-1]之间的浮点数）  |
-|      connectFactor       |    connectFactor （数数字为(0-1]之间的浮点数）     |
+|   activeConnectFactor    | activeConnectFactor （数字且为(0-1]之间的浮点数）  |
+|      connectFactor       |    connectFactor （数字且为(0-1]之间的浮点数）     |
 
 p2p 配置点击下一步按钮保存当前配置
 
