@@ -1,6 +1,6 @@
 # 介绍
-[TRON FACTORY](http://39.106.174.213/kangjiancheng/tron-factory) 提供了一键发链的解决方案， 帮助您快速构建更稳定、 安全的生产级区块链环境， 避免在区块链部署、 运维、 管理、 应用开发等方面的挑战， 使您更专注于核心业务创新， 并实现业务快速上链。
 
+[TRON FACTORY](http://47.252.80.127:8080) 提供了一键发链的解决方案， 帮助您快速构建更稳定、 安全的生产级区块链环境， 避免在区块链部署、 运维、 管理、 应用开发等方面的挑战， 使您更专注于核心业务创新， 并实现业务快速上链。
 
 ## 功能
 
@@ -23,8 +23,6 @@
     - P2P配置
     - 模块定制化
 
-
-
 ## 准备工作
 
 你需要在本地安装 [node](http://nodejs.org/) 、[yarn](https://yarn.bootcss.com/docs/install/#mac-stable)、[git](https://git-scm.com/)、expect 和 [maven](http://maven.apache.org/)（推荐当前官网稳定版本，不推荐旧版本 Node,否则项目无法正常启动）。   
@@ -40,7 +38,6 @@
 - 需要打开UDP端口
 - 需要最少2个CPU
 
-
 ## 安装
 
 ```bash
@@ -55,14 +52,11 @@ cd tron-factory
 
 # 启动服务：http://localhost:8080
 ./deploy.sh
-
 ```
 
-现在你可以[快速开始](zh/quick-start.md) 去搭建一条私有链。
-
+现在你可以[开始](zh/quick-start.md) 去搭建一条私有链。
 
 > 通过TRON FACTORY部署的节点在服务器运行的默认路径为`～/java-tron-timeStamp-id`（其中 timeStamp 为添加节点时的时间戳，id 为节点的ID）目录下，节点的运行日志可以到相应服务器上查看  
-
 
 #### 浏览器支持
 
@@ -71,5 +65,4 @@ cd tron-factory
 #### 更新日志
 
 最新稳定版本：2.6.12  
-
 每个版本的更新日志见 [GitHub]()。
