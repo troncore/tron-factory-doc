@@ -5,7 +5,6 @@
 ## 功能
 
 - 创世账户
-
 - 节点管理
   - 签名算法
   - 添加节点
@@ -13,7 +12,6 @@
     - 启动节点
     - 暂停节点
     - 重置节点
-
 - 配置
   - 快速配置
   - 自定义配置
@@ -30,7 +28,7 @@
 后端技术栈基于 [sprint-boot](https://spring.io/projects/spring-boot)、[maven](https://maven.apache.org/guides/mini/index.html) 和 [lightbend](https://github.com/lightbend/config)  
 提前了解和学习这些知识会对使用本项目有很大的帮助。
 
-### 部署环境
+#### 节点服务器
 
 基于java-tron部署的应用链需要确保部署服务器安装恰当的依赖环境（并非TRON FACTORY运行环境）。
 - JDK1.8(暂不支持 JDK 1.9+)

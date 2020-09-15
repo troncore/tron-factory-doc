@@ -5,7 +5,6 @@
 ## Features
 
 - Genesis Account
-
 - Nodes Manage
   - Signature Algorithm
   - Add Node
@@ -13,7 +12,6 @@
     - Run Node
     - Stop Node
     - Reset Node
-
 - Configuration
   - Quick Config
   - Custom Config
