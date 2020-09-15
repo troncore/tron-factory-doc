@@ -1,3 +1,3 @@
 - <b>Guide</b>
  - [Introduction](/)
- - [Quick Start](/quick-start)
+ - [Quick Started](/quick-start)

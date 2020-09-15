@@ -2,7 +2,7 @@
 
 [TRON FACTORY](http://47.252.80.127:8080) 提供了一键发链的解决方案， 帮助您快速构建更稳定、 安全的生产级区块链环境， 避免在区块链部署、 运维、 管理、 应用开发等方面的挑战， 使您更专注于核心业务创新， 并实现业务快速上链。
 
-## 功能
+#### 功能
 
 - 创世账户
 - 节点管理
@@ -21,7 +21,7 @@
     - P2P配置
     - 模块定制化
 
-## 准备工作
+## 起步
 
 你需要在本地安装 [node](http://nodejs.org/) 、[yarn](https://yarn.bootcss.com/docs/install/#mac-stable)、[git](https://git-scm.com/)、expect 和 [maven](http://maven.apache.org/)（推荐当前官网稳定版本，不推荐旧版本 Node,否则项目无法正常启动）。   
 前端技术栈基于 [ES2015+](http://es6.ruanyifeng.com/)、[vue 2.6](https://cn.vuejs.org/index.html)、[vuex](https://vuex.vuejs.org/zh-cn/)、[vue-router](https://router.vuejs.org/zh-cn/) 、[vue-cli](https://github.com/vuejs/vue-cli) 、[axios](https://github.com/axios/axios) 和 [element-ui](https://github.com/ElemeFE/element)  

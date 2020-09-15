@@ -1,4 +1,4 @@
-# Quick start
+# Quick Started
 
 Need to implement SSH in advance [key login](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server) or [password login](https://serverpilot.io/docs/how-to-enable-ssh-password-authentication/) 
 
