@@ -98,7 +98,7 @@ TRON FACTORY 1.4的自定义配置主要包含5个模块:
 | producedTimeOut | 节点区块产生超时比例 （数字0或正整数 取值范围为[0-100]） |
 | minParticipationRate |   节点最小参与率 （数字0或正整数 取值范围为[0-100]）    |
 
-基础配置点击下一步按钮保存当前配置。
+点击下一步按钮保存当前配置。
 
 #### HTTP/RPC 配置
 
@@ -114,7 +114,7 @@ TRON FACTORY 1.4的自定义配置主要包含5个模块:
 |   fullNodeEnable     |   是否开启fullNode的Http服务                                  |
 |   solidityEnable     |   是否开启solidityNode的Http服务                              |
 
-网络链接配置点击下一步按钮保存当前配置。
+点击下一步按钮保存当前配置。
 
 #### 数据库基础配置
 
@@ -128,7 +128,7 @@ TRON FACTORY 1.4的自定义配置主要包含5个模块:
 | 交易回执信息存储 | 是或否 |
 | 自定义chainbase模块  | 勾选后可上传自定义编译chainbase模块 |
 
-数据库基础配置点击下一步按钮保存当前配置。
+点击下一步按钮保存当前配置。
 
 #### P2P 配置
 
@@ -141,7 +141,7 @@ P2P 配置详情如下：
 |   activeConnectFactor    | activeConnectFactor （数字且为(0-1]之间的浮点数）  |
 |      connectFactor       |    connectFactor （数字且为(0-1]之间的浮点数）     |
 
-p2p 配置点击下一步按钮保存当前配置。
+点击下一步按钮保存当前配置。
 
 #### 模块定制化
 
