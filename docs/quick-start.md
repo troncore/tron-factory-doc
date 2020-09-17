@@ -39,7 +39,7 @@ Click `Save` to complete the blockchain configuration.
 
 Node management fulfills a number of your operational requirements regarding nodes in the TRON FACTORY, thus enabling their management.
 
-### Add a node
+### Add Node
 
 Click `Add` to go to the Add Node page.
   
@@ -68,11 +68,11 @@ Click `Save` to add the current node information.
 
 Click `details` to view the details of the node.
 
-### Edit node
+### Edit Node
 
 On the node details page, users can click `Edit` to edit nodes that are not deployed. After the node is deployed, editing operations will not be available.
 
-### Delete node
+### Delete Node
 
 On the node details page, users can click `Delete` to delete nodes that are not deployed. After the node is deployed, the deletion operation will not be available.
 
