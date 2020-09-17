@@ -4,37 +4,79 @@ Need to implement SSH in advance [key login](https://www.digitalocean.com/commun
 
 Deploy node needs [java-tron-1.0.0.zip build](https://tronprotocol.github.io/documentation-en/developers/deployment/)
 
- 
-（1）Documentation  
-（2）Click the start button to deploy nodesk<sup style="color:blue">[1]</sup>
+## Blockchain configuration
+
+The blockchain configuration is the configuration of the basic information of the private chain to be deployed, and the blockchain configuration will not be able to be edited or deleted after nodes are added.
+
+### basic configuration
+
+The required fields include:
+
+|              Name               |              Description              |
+| :---------------------------------------: | :-----------------------------------: |
+|                BlockchainName                |             The unique identification of the private chain             |
+|                Signature algorithm                | ECkey(Secp256k1) or SM2  |
+|                  p2pVersion	                  |                P2P version of the private chain                |
+
+### Genesis account
+
+The genesis account includes a Blackhole account by default and must contain at least one genesis account to ensure that transactions can be made on the private chain.
+
+The required fields include:
+
+|              Name               |              Description              |
+| :---------------------------------------: | :-----------------------------------: |
+|                accountName                |             account name              |
+|                accountType                | account type  |
+|                  address                  |                address                 |
+| balance |                balance                |
+
+Click `Save` to complete the blockchain configuration.
+
+> Note: The address corresponding to the current signature algorithm is required.
 
 ## Nodes manage
 
-Node management is to manage all your nodes added and deployed in TRON FACTORY.
+Node management fulfills a number of your operational requirements regarding nodes in the TRON FACTORY, thus enabling their management.
 
 ### Add a node
 
-At first select the signature algorithm to be used by your node.TRON FACTORY supports ECKey and SM2 signature algorithms currently.<sup style="color:blue">[2]</sup>
-Click on the `Add Node`; in the upper left corner to add a Witness node or a FullNode node to the one-click chain network.
+Click `Add` to go to the Add Node page.
   
 Required fields include：
 
 |               Required field                |                                    Explanation                                     |
 | :-----------------------------------------: | :--------------------------------------------------------------------------------: |
+|                     server address                      |                                      Node server IP/hostname                               |
+|                 listen port                   |                                    P2P listen port                         |
+|            authentication methods           |  Authentication methods for connection of SSH.Password and public key are supported now.        |
+|                    username                 |        Username for SSH                                                           |
+|                    SSH port                     |        Port for SSH   (1~65535)                                                   |
+|                   password                  |               The password for connection of SSH                                  |
 |                 node type                   |                                    Super Node or Full Node                         |
-|                 needSyncCheck               | The infromation of each node on the chain is regularly synchronized if SyncCheck is ON. One chain must have one SR with SyncCheck OFF|
 |                     URL                     |                            Url （Required for Witness）                            |
-|                  voteCount<sup style="color:blue">[3]</sup>                   |               Number of corresponding votes （Required for Witness）               |
+|                  voteCount                   |               Number of corresponding votes （Required for Witness）               |
 |                    address                  |           Super node address using corresponding signature algorithm based on private key （Required for Witness）               |
 |                  privateKey                 |         64-bit key saved locally(Required for Witness)                            |
-|                     IP                      |                                      Node server IP                               |
-|                    username                 |        Username for SSH                                                           |  
-|                    port                     |        Port for SSH   (1~65535)                                                   |
-|            authentication methods           |  Authentication methods for connection of SSH.Password and public key are supported now.        |
-|                   password                  |               The password for connection of SSH                                  |
 
-Click the complete button<sup style="color:blue">[4]</sup> to save current node information
+Click `Save` to add the current node information.
 
+> Note: The voteCount support range is 0 - 9223372036854775807.
+> Note: address and privateKey can be generated by clicking `Generate`. 
+
+### Node Details
+
+Click `details` to view the details of the node.
+
+### Edit node
+
+On the node details page, users can click `Edit` to edit nodes that are not deployed. After the node is deployed, editing operations will not be available.
+
+### Delete node
+
+On the node details page, users can click `Delete` to delete nodes that are not deployed. After the node is deployed, the deletion operation will not be available.
+
+When the last node is deleted, it means that the current chain is deleted and the system will automatically switch to the home page, pending the user to re-initialize the chain information.
 
 ## Configuration
 
@@ -47,33 +89,6 @@ Fast configuration is to modify only the deployed file genesis block information
 ### Custom config
 
 Version 1.2 of TRON FACTORY include 6 modules,
-
-#### Genesis block
-
-Genesis information configuration mainly includes asset configuration and witeness configuration.  
-Asset configuration can add and modify current asset configuration information.  
-Witeness configuration to view current witeness configuration information.
-
-The required fields for asset configuration include:
-
-|              Required field               |              Explanation              |
-| :---------------------------------------: | :-----------------------------------: |
-|                accountName                |             account name              |
-|                accountType                | account type： AssetIssue  |
-|                  address                  |                address<sup style="color:blue">[6]</sup>                 |
-| balance <sup style="color:blue">[4]</sup> |                balance                |
-
-The required asset(The blackhole account):
-
-|                Required field             |              Required value               |
-| :---------------------------------------: | :-------------------------------: |
-|                accountName                |              Blackhole<sup style="color:blue">[5]</sup>               |
-|                accountType                |  AssetIssue |
-|                  address                  | (eckey signature algorithm:）TSJx5LZUDmRDKwQJHWAzpwDdAVm5F7UftB    （sm2 signature algorithm:）TEJj71X5jJUCdZ4iMcJgqpYb5ECyDvHvDu|
-| balance <sup style="color:blue">[4]</sup> |               -9223372036854775808                |
-
-
-Genesis block configuration click next button to save the current configuration
 
 #### Basic config
 
@@ -161,14 +176,6 @@ All the nodes will be deployed in turn after click deploy button.You can check l
 ### Logs
 
 Click logs to view the log of the node's deployment. 
-
-### Details
-
-Click details to view the details of the node.
-
-### Delete
-
-The node can be deleted which status is pending.
 
 ## Help
 
