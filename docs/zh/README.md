@@ -24,9 +24,8 @@
     - 模块定制化
 
 
-## 安装
 
-### 前序准备
+## 前序准备
 
 你需要在本地安装 [node](http://nodejs.org/) 、[yarn](https://yarn.bootcss.com/docs/install/#mac-stable)、[git](https://git-scm.com/)、expect 和 [maven](http://maven.apache.org/)（推荐当前官网稳定版本，不推荐旧版本 Node,否则项目无法正常启动）。   
 前端技术栈基于 [ES2015+](http://es6.ruanyifeng.com/)、[vue 2.6](https://cn.vuejs.org/index.html)、[vuex](https://vuex.vuejs.org/zh-cn/)、[vue-router](https://router.vuejs.org/zh-cn/) 、[vue-cli](https://github.com/vuejs/vue-cli) 、[axios](https://github.com/axios/axios) 和 [element-ui](https://github.com/ElemeFE/element)  
@@ -41,10 +40,8 @@
 - 需要打开UDP端口
 - 需要最少2个CPU
 
- <p align="center">
-  <!-- <img width="900" src="https://wpimg.wallstcn.com/a5894c1b-f6af-456e-82df-1151da0839bf.png"> -->
-</p>
 
+## 安装
 
 ```bash
 # 克隆项目
