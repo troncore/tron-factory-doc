@@ -158,15 +158,26 @@ Modularization configuration required fields include：
 
 Click `Save` to complete the node configuration.
 
+## One-Click Deployment
 
-## Launch Nodes
+### Launch Nodes
 
-TRON FACTORY only support deploy all nodes at one time.Nodes which deployment status are pending will be deployed when clicking deploy button. 
+TRON FACTORY only support deploy all nodes at one time. Users can choose to deploy a single node or check multiple nodes for batch deployment. 
 
-You will choose deployment files of java-tron after click deploy button.See [depolyment document](https://tronprotocol.github.io/documentation-en/developers/deployment/) to learn how to compile java-tron and generate deployment files.
+After clicking `Deploy`, fill in the path of the locally compiled java-tron deployment package to start node deployment. See [depolyment document](https://tronprotocol.github.io/documentation-en/developers/deployment/) to learn how to compile java-tron and generate deployment files.
 
-All the nodes will be deployed in turn after click deploy button.You can check logs after the deployment is complete and the status of nodes will change to complete.
+After the deployment, all nodes will be deployed in sequence, and after the deployment, you can click `log` to view the corresponding deployment result, after successful deployment, the node status will change from stopped to running.
+
+### Node start/stop
+
+After successful deployment, you can perform stop and continue operations on the node.
+
+Click `Stop`, the node will stop producing blocks. A stopped node has the option to continue or redeploy. If you click `Start`, the node will continue to produce blocks and the history of blocks will remain; if you click `Deploy`, the node will be redeployed and the history of blocks will be cleared.
+
+### Node reset
+
+After the node is stopped, users can click `Reset` to reset the node. At this time, the node configuration information will be reset to the default configuration, the node's historical production block information will be cleared, the node can only be redeployed and no longer supports start/stop operation.
 
 ### Logs
 
-Click logs to view the log of the node's deployment. 
+Click `Log` to view the log for the current node.
