@@ -84,15 +84,15 @@ Configuration is to modify the configuration file of node deployment. In order t
 
 You can learn the field details of configuration file by [main_net_config.conf](https://github.com/tronprotocol/tron-deployment/blob/master/main_net_config.conf).
 
-### Quick config
+### Quick Config
 
 Quick configuration can only modify the node's HTTP port and RPC port, while other configuration items use the default configuration, the specific configuration items can be explained in the custom configuration.
 
-### Custom config
+### Custom Config
 
 Version 1.4 of TRON FACTORY include 5 modules,
 
-#### Basic config
+#### Basic Config
 
 The basic configuration required fields include：
 
