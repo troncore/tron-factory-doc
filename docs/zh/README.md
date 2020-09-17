@@ -4,7 +4,7 @@
 ## 前序准备
 
 你需要在本地安装 [node](http://nodejs.org/) 、[yarn](https://yarn.bootcss.com/docs/install/#mac-stable)、[git](https://git-scm.com/)、expect 和 [maven](http://maven.apache.org/)（推荐当前官网稳定版本，不推荐旧版本 Node,否则项目无法正常启动）。   
-前端技术栈基于 [ES2015+](http://es6.ruanyifeng.com/)、[vue](https://cn.vuejs.org/index.html)、[vuex](https://vuex.vuejs.org/zh-cn/)、[vue-router](https://router.vuejs.org/zh-cn/) 、[vue-cli](https://github.com/vuejs/vue-cli) 、[axios](https://github.com/axios/axios) 和 [element-ui](https://github.com/ElemeFE/element)  
+前端技术栈基于 [ES2015+](http://es6.ruanyifeng.com/)、[vue 2.6](https://cn.vuejs.org/index.html)、[vuex](https://vuex.vuejs.org/zh-cn/)、[vue-router](https://router.vuejs.org/zh-cn/) 、[vue-cli](https://github.com/vuejs/vue-cli) 、[axios](https://github.com/axios/axios) 和 [element-ui](https://github.com/ElemeFE/element)  
 后端技术栈基于 [sprint-boot](https://spring.io/projects/spring-boot)、[maven](https://maven.apache.org/guides/mini/index.html) 和 [lightbend](https://github.com/lightbend/config)  
 提前了解和学习这些知识会对使用本项目有很大的帮助。
 
@@ -22,24 +22,27 @@
 
 ## 功能
 
+- 创世账户
+
 - 节点管理
   - 签名算法
   - 添加节点
-  - 部署
+  - 部署节点
+    - 启动节点
+    - 暂停节点
+    - 重置节点
 
 - 配置
   - 快速配置
   - 自定义配置
-    - 创世块信息
     - 基础配置
     - HTTP/RPC配置
     - 数据库基础配置
     - P2P配置
     - 模块定制化
 
-- 生态应用（建设中）
 
-## 启动步骤
+## 启动项目
 
 ```bash
 # 克隆项目
@@ -56,18 +59,15 @@ cd tron-factory
 
 ```
 
+## 开始
+
+[入门指南](zh/quick-start.md) 介绍了如何使用此项目去快速部署一条私有链。
+
 ## 部署完成的节点
 
-通过TRON FACTORY部署的节点在服务器运行的默认路径为`～/java-tron-timeStamp-id`（其中 timeStamp 为添加节点时的时间戳，id 为节点的ID）目录下，节点的运行日志可以到相应服务器上查看
+通过TRON FACTORY部署的节点在服务器运行的默认路径为`～/java-tron-timeStamp-id`（其中 timeStamp 为添加节点时的时间戳，id 为节点的ID）目录下，节点的运行日志可以到相应服务器上查看  
 
-## 使用步骤
 
-[使用步骤](zh/quick-start.md)
-
-## 版本发布日志 <!-- {docsify-ignore} -->
-
-详细的版本发布日志将稍后添加
-
-## 浏览器支持 <!-- {docsify-ignore} -->
+#### 浏览器支持
 
 请使用最新版chrome浏览器.
