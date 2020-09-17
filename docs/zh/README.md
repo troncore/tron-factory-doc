@@ -72,4 +72,4 @@ cd tron-factory
 
 最新稳定版本：2.6.12  
 
-每个版本的更新日志见 GitHub。
+每个版本的更新日志见 [GitHub]()。
