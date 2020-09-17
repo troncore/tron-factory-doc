@@ -1,24 +1,6 @@
 # 介绍
 [TRON FACTORY](http://39.106.174.213/kangjiancheng/tron-factory) 提供了一键发链的解决方案， 帮助您快速构建更稳定、 安全的生产级区块链环境， 避免在区块链部署、 运维、 管理、 应用开发等方面的挑战， 使您更专注于核心业务创新， 并实现业务快速上链。
 
-## 前序准备
-
-你需要在本地安装 [node](http://nodejs.org/) 、[yarn](https://yarn.bootcss.com/docs/install/#mac-stable)、[git](https://git-scm.com/)、expect 和 [maven](http://maven.apache.org/)（推荐当前官网稳定版本，不推荐旧版本 Node,否则项目无法正常启动）。   
-前端技术栈基于 [ES2015+](http://es6.ruanyifeng.com/)、[vue 2.6](https://cn.vuejs.org/index.html)、[vuex](https://vuex.vuejs.org/zh-cn/)、[vue-router](https://router.vuejs.org/zh-cn/) 、[vue-cli](https://github.com/vuejs/vue-cli) 、[axios](https://github.com/axios/axios) 和 [element-ui](https://github.com/ElemeFE/element)  
-后端技术栈基于 [sprint-boot](https://spring.io/projects/spring-boot)、[maven](https://maven.apache.org/guides/mini/index.html) 和 [lightbend](https://github.com/lightbend/config)  
-提前了解和学习这些知识会对使用本项目有很大的帮助。
-
-## 部署环境
-
-基于java-tron部署的应用链需要确保部署服务器安装恰当的依赖环境（并非TRON FACTORY运行环境）。
-- JDK1.8(暂不支持 JDK 1.9+)
-- 在Linux Ubuntu系统上(例如Ubuntu 16.04.4 LTS), 要确保你的服务器已经安装了[Oracle JDK 8](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-get-on-ubuntu-16-04), 而不是Open JDK 8. 如果你使用Open JDK 8去编译代码，编译结果可能会失败。
-- 需要打开UDP端口
-- 需要最少2个CPU
-
- <p align="center">
-  <!-- <img width="900" src="https://wpimg.wallstcn.com/a5894c1b-f6af-456e-82df-1151da0839bf.png"> -->
-</p>
 
 ## 功能
 
@@ -43,6 +25,26 @@
 
 
 ## 安装
+
+### 前序准备
+
+你需要在本地安装 [node](http://nodejs.org/) 、[yarn](https://yarn.bootcss.com/docs/install/#mac-stable)、[git](https://git-scm.com/)、expect 和 [maven](http://maven.apache.org/)（推荐当前官网稳定版本，不推荐旧版本 Node,否则项目无法正常启动）。   
+前端技术栈基于 [ES2015+](http://es6.ruanyifeng.com/)、[vue 2.6](https://cn.vuejs.org/index.html)、[vuex](https://vuex.vuejs.org/zh-cn/)、[vue-router](https://router.vuejs.org/zh-cn/) 、[vue-cli](https://github.com/vuejs/vue-cli) 、[axios](https://github.com/axios/axios) 和 [element-ui](https://github.com/ElemeFE/element)  
+后端技术栈基于 [sprint-boot](https://spring.io/projects/spring-boot)、[maven](https://maven.apache.org/guides/mini/index.html) 和 [lightbend](https://github.com/lightbend/config)  
+提前了解和学习这些知识会对使用本项目有很大的帮助。
+
+### 部署环境
+
+基于java-tron部署的应用链需要确保部署服务器安装恰当的依赖环境（并非TRON FACTORY运行环境）。
+- JDK1.8(暂不支持 JDK 1.9+)
+- 在Linux Ubuntu系统上(例如Ubuntu 16.04.4 LTS), 要确保你的服务器已经安装了[Oracle JDK 8](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-get-on-ubuntu-16-04), 而不是Open JDK 8. 如果你使用Open JDK 8去编译代码，编译结果可能会失败。
+- 需要打开UDP端口
+- 需要最少2个CPU
+
+ <p align="center">
+  <!-- <img width="900" src="https://wpimg.wallstcn.com/a5894c1b-f6af-456e-82df-1151da0839bf.png"> -->
+</p>
+
 
 ```bash
 # 克隆项目
