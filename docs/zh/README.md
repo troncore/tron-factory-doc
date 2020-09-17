@@ -42,7 +42,7 @@
     - 模块定制化
 
 
-## 启动项目
+## 安装
 
 ```bash
 # 克隆项目
@@ -59,13 +59,10 @@ cd tron-factory
 
 ```
 
-## 开始
+现在你可以[快速开始](zh/quick-start.md) 去搭建一条私有链。
 
-[入门指南](zh/quick-start.md) 介绍了如何使用此项目去快速部署一条私有链。
 
-## 部署完成的节点
-
-通过TRON FACTORY部署的节点在服务器运行的默认路径为`～/java-tron-timeStamp-id`（其中 timeStamp 为添加节点时的时间戳，id 为节点的ID）目录下，节点的运行日志可以到相应服务器上查看  
+> 通过TRON FACTORY部署的节点在服务器运行的默认路径为`～/java-tron-timeStamp-id`（其中 timeStamp 为添加节点时的时间戳，id 为节点的ID）目录下，节点的运行日志可以到相应服务器上查看  
 
 
 #### 浏览器支持
