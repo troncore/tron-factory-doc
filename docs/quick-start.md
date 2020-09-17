@@ -166,7 +166,7 @@ TRON FACTORY only support deploy all nodes at one time. Users can choose to depl
 
 After clicking `Deploy`, fill in the path of the locally compiled java-tron deployment package to start node deployment. See [depolyment document](https://tronprotocol.github.io/documentation-en/developers/deployment/) to learn how to compile java-tron and generate deployment files.
 
-After the deployment, all nodes will be deployed in sequence, and after the deployment, you can click `log` to view the corresponding deployment result, after successful deployment, the node status will change from stopped to running.
+After the deployment, all nodes will be deployed in sequence, and after the deployment, you can click `log` to view the corresponding deployment result, after deployment successfully, the node status will change from stopped to running.
 
 ### Node start/stop
 
